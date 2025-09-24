@@ -4,6 +4,9 @@ Improved brain tumor classification model using ensemble and transfer learning T
 
 
 Part A (Training)
+
+
+
 To retrain our model,use the code in the 'our_model' directory  and do the following steps :
 1- clone the repo of RAM modelas our model makes use of it. clone it from  "https://github.com/xinyu1205/recognize-anything"  and place it inside 'our_model' directory.
 
@@ -29,11 +32,20 @@ your laptop that contains the unzipped files form the dataset original file.
 
 
 Part  B (Testing)
+
+
+
 Quick testing:
+
+
+
  Our checkppoints are adirectly available at : "https://huggingface.co/osama-yzu/brain_tumor_checkpoints/tree/main/checkpoints"
 
 
 
 
+
  Comparison with other models :
+
+ 
  The remaining folders (other then 'our_model' folder) can verify the results of comparing our model with other models. All training and testiing script require step 3 and 4 form part A  while  the model in the directory '5_model_majority_vote' requires step 1,2,3,4 from part (A). The checkpoints we used for compariosn are also available at : "https://huggingface.co/osama-yzu/brain_tumor_checkpoints/tree/main/checkpoints" with folder names thaat match the folder names in this repository. 
